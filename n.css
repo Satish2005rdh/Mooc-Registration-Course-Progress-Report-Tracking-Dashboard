@@ -1,0 +1,46 @@
+.sidebar {
+    transition: width 0.3s ease;
+  }
+  
+  .main-content {
+    transition: margin-left 0.3s ease;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+  body.dark-mode {
+    background-color: #0F172A;
+    color: #E2E8F0;
+  }
+  
+  body.dark-mode .bg-white {
+    background-color: #1E293B;
+  }
+  
+  body.dark-mode .bg-gray-50 {
+    background-color: #0F172A;
+  }
+  
+  body.dark-mode .bg-gray-100 {
+    background-color: #1E293B;
+  }
+  
+  body.dark-mode .text-gray-700 {
+    color: #E2E8F0;
+  }
+  
+  body.dark-mode .text-gray-500 {
+    color: #94A3B8;
+  }
+  
+  body.dark-mode .border-gray-200 {
+    border-color: #334155;
+  }
+  
+  body.dark-mode .shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  }
+  
